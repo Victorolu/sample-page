@@ -1,0 +1,54 @@
+/* Rajdhani Bold*/
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani-Bold/Rajdhani-Bold.ttf.woff") format("woff"),
+    url("fonts/Rajdhani-Bold/Rajdhani-Bold.ttf.svg#Rajdhani-Bold") format("svg"),
+    url("fonts/Rajdhani-Bold/Rajdhani-Bold.ttf.eot"),
+    url("fonts/Rajdhani-Bold/Rajdhani-Bold.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Rajdhani*/
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani/Rajdhani.ttf.woff") format("woff"),
+    url("fonts/Rajdhani/Rajdhani.ttf.svg#Rajdhani") format("svg"),
+    url("fonts/Rajdhani/Rajdhani.ttf.eot"),
+    url("fonts/Rajdhani/Rajdhani.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Rajdhani Medium*/
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani-Medium/Rajdhani-Medium.ttf.woff") format("woff"),
+    url("fonts/Rajdhani-Medium/Rajdhani-Medium.ttf.svg#Rajdhani") format("svg"),
+    url("fonts/Rajdhani-Medium/Rajdhani-Medium.ttf.eot"),
+    url("fonts/Rajdhani-Medium/Rajdhani-Medium.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Rajdhani Light*/
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani-Light/Rajdhani-Light.ttf.woff") format("woff"),
+    url("fonts/Rajdhani-Light/Rajdhani-Light.ttf.svg#Rajdhani") format("svg"),
+    url("fonts/Rajdhani-Light/Rajdhani-Light.ttf.eot"),
+    url("fonts/Rajdhani-Light/Rajdhani-Light.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Rajdhani SemiBold*/
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani-SemiBold/Rajdhani-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}

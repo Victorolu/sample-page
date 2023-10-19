@@ -1,0 +1,53 @@
+.filter-container {
+  background-color: #fff;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 15px;
+  padding: 0 20px;
+
+  .filter-text-container {
+    p {
+      align-items: center;
+      border-bottom: 4px solid #59d2e0;
+      display: grid;
+      padding: 25px 0 20px 0;
+      width: fit-content;
+    }
+  }
+
+  .filter-select-container {
+    align-items: center;
+    display: flex;
+    justify-self: end;
+    position: relative;
+    width: fit-content;
+
+    .form-select {
+      border: 1px solid #dedfea;
+      border-radius: 10px;
+      min-width: 150px;
+      padding: 13px 15px;
+    }
+
+    &::before {
+      content: "Show";
+      font-size: 12px;
+      color: #d8d9e1;
+      font-weight: 700;
+      letter-spacing: 0.1px;
+      position: absolute;
+      top: 0px;
+      background-color: white;
+      left: 15px;
+      padding: 3px;
+    }
+  }
+
+  .filter-text,
+  select {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+  }
+}

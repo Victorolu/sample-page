@@ -1,0 +1,44 @@
+.page-header {
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1.2fr 4fr;
+  overflow: hidden;
+
+  .page-header-image {
+    opacity: 0.9;
+    width: 100%;
+  }
+
+  .page-header-title {
+    padding: 40px 16px;
+
+    h1 {
+      color: #fff;
+      font-size: 30px;
+      font-weight: 600;
+      margin: 0 0 7px;
+    }
+
+    p {
+      border-radius: 10px 0 0 10px;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .page-header-title {
+      padding: 20px 16px;
+
+      h1 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 11px;
+      }
+    }
+  }
+}

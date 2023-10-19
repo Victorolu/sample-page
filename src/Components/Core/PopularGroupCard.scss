@@ -1,0 +1,31 @@
+.group-card {
+  display: flex;
+  margin-bottom: 10px;
+
+  p {
+    margin: 0;
+  }
+
+  .group-card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+
+    .group-card-name {
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .group-card-hashtag {
+      font-size: 10px;
+    }
+  }
+
+  .group-card-icon {
+    align-items: center;
+    display: flex;
+    flex: 1 0;
+    justify-content: flex-end;
+  }
+}

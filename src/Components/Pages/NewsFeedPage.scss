@@ -1,0 +1,16 @@
+.news-feed-page-content {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 20px;
+}
+
+@media (max-width: 1000px) {
+  .side-contents {
+    display: none;
+  }
+
+  .news-feed-page-content {
+    grid-template-columns: 1fr;
+  }
+}

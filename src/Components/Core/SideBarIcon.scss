@@ -1,0 +1,21 @@
+button {
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all ease-in-out 0.5s;
+
+  i {
+    color: #bcbfd3;
+    font-size: 17px;
+  }
+
+  &:focus {
+    background-color: #5ad3e1;
+    box-shadow: 4px 4px 6px rgba($color: #5ad3e1, $alpha: 0.2);
+
+    i {
+      color: #fff;
+    }
+  }
+}

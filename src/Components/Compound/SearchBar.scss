@@ -1,0 +1,40 @@
+.input-group {
+  height: 50px;
+  margin-left: -70px;
+  max-width: 400px;
+
+  input {
+    background-color: #4b4ac4;
+    border: none;
+    border-radius: 12px 0 0 12px;
+    color: #fff;
+    font-size: 11px;
+
+    &:focus {
+      background-color: #4b4ac4;
+      box-shadow: none;
+      color: #fff;
+    }
+
+    &::placeholder {
+      color: #7675e9;
+      font-weight: 700;
+    }
+  }
+
+  .input-group-text {
+    background-color: #4b4ac4;
+    border: none;
+    border-radius: 0 12px 12px 0;
+  }
+
+  .bi-search {
+    color: #7675e9;
+  }
+}
+
+@media (max-width: 1000px) {
+  .input-group {
+    margin: 10px 0;
+  }
+}

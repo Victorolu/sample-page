@@ -1,0 +1,7 @@
+.base-avatar {
+  background-size: contain;
+  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+  height: 30px;
+  position: relative;
+  width: 30px;
+}

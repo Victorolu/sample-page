@@ -1,0 +1,36 @@
+.badgequest-card {
+  display: flex;
+  margin-bottom: 10px;
+
+  p {
+    margin: 0;
+  }
+
+  .badgequest-card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .badgequest-card-name {
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .badgequest-card-description {
+      font-size: 10px;
+    }
+  }
+
+  .base-avatar {
+    height: 20px;
+    margin-right: 10px;
+    width: 20px;
+  }
+}
+
+.badgequest-card-container {
+  hr {
+    border: 2px solid #e7e8ee;
+    margin-top: 0;
+  }
+}

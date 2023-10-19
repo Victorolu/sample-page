@@ -1,0 +1,29 @@
+.profile-card {
+  display: flex;
+  margin-bottom: 10px;
+
+  p {
+    margin: 0;
+  }
+
+  .profile-card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+
+    .profile-card-name {
+      font-size: 12px;
+      font-weight: 700;
+
+      .bi-check-circle-fill {
+        margin-left: 3px;
+        color: #39a1ef;
+      }
+    }
+
+    .profile-card-hashtag {
+      font-size: 10px;
+    }
+  }
+}
