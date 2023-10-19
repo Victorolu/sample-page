@@ -16,6 +16,10 @@ Icons used in this project were provided using bootstrap icon.
 
 [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/)
 
+Finally, I made use of Rajdhani Font for text font of the page as that was the closest I could find to sample page.
+
+[https://fonts.adobe.com/fonts/rajdhani](https://fonts.adobe.com/fonts/rajdhani)
+
 In the project directory, you can run:
 
 ### `npm start`
